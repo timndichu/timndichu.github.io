@@ -1,6 +1,7 @@
 body {
   color: #333;
   font-size: 16px;
+  font-family: 'Inter', sans-serif;
 }
 a {
   color: #009688;
@@ -100,17 +101,13 @@ h3 {
 .full-height {
   height: 100vh;
 }
-#intro.section {
-  background: url(../../assets/img/timo.JPG) no-repeat top
-    center/cover;
-  position: relative;
-}
+
 #intro.section .container {
   color: white;
   font-weight: 200;
   left: 0;
   position: absolute;
-  top: 0;
+  top: 50%;
 }
 #intro.section .container *:not(span) {
   font-weight: 300;
@@ -280,10 +277,21 @@ small {
 .teal {
   background-color: #008073 !important;
 }
-@media (min-width: 1200px) {
-  #experience .container {
-    width: 860px;
-  }
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.embedded {
+  width: 200px !important;
+  height: 200px !important;
+}
+#intro.section {
+  background: url(../../assets/img/desktop.jpg) no-repeat top
+    center/cover;
+  position: relative;
+ 
 }
 @media (max-width: 1360px) {
   .card ul li {
@@ -403,6 +411,11 @@ small {
     margin: 0 auto;
   }
   #intro.section {
-    background-position-x: 30%;
+    background: url(../../assets/img/portrait.jpg) no-repeat top
+      center/cover !important;
+    position: relative !important;
+    background-position-x: 30% !important;
   }
+
+
 }
