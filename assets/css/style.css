@@ -45,7 +45,7 @@ ul.side-nav.fixed a {
   box-sizing: content-box;
   color: #444;
   display: block;
-  line-height: 100%;
+  /* line-height: 100%; */
   padding: 10px 0 12px;
 }
 ul.table-of-contents li.logo a.active,
@@ -389,7 +389,7 @@ small {
     line-height: 24px;
   }
   #experience span.card-title {
-    text-align: center;
+    text-align: left;
     display: block;
   }
   #experience span.card-title a {
@@ -418,4 +418,22 @@ small {
   }
 
 
+}
+
+
+.center-block {
+  margin-left: 0px!important;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+#experience span.card-title {
+  text-align: left;
+}
+
+.image {
+  width: 100px !important;
 }
